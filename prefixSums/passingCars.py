@@ -10,3 +10,11 @@ def solution(A):
             num_of_pairs = -1
             break
     return num_of_pairs
+
+def solution(A):
+    sum=0
+    for i in range(len(A)):
+        if A[i]==0:
+            sum+=A[i:].count(1)
+            print (sum)
+    return sum
