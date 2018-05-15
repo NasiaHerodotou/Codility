@@ -11,3 +11,6 @@ def solution(A, B, K):
     sum1 = (A - 1) / K
     sum2 = B / K
     return sum2 - sum1
+
+def solution(A, B, K):
+    return sum(map(lambda x: x%K ==0, range(A,B+1)))
