@@ -15,3 +15,8 @@ def solution(A):
         return 1
     else:
         return 0
+    
+    
+    def solution(A):
+    testList = list(range(1,len(A)+1))
+    return int(testList == sorted(A))
